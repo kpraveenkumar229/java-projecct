@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>Google</name>
+		<url>http://google.com/</url>
 	</organization>
 
 	<properties>
@@ -97,13 +97,13 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <name>Releases Nexus Repository</name>
 	      <url>http://13.233.159.252:8081/repository/maven-releases//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>Snapshot Nexus Repository </name>
 	      <url>http://13.233.159.252:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
