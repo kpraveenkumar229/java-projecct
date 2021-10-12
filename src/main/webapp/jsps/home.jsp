@@ -16,7 +16,7 @@
 <div style="text-align: center;">
 	
 	<span style="font-weight: bold;">
-		Praveen Kumar Krishmamoorthy
+		Praveen Kumar K
 		
 	</span>
 </div>
