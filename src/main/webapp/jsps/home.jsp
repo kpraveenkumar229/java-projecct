@@ -7,7 +7,7 @@
 <title>Home Page</title>
 </head>
 </head>
-<body>
+<body style="background-color:powderblue;">
 <h1 align="center">CI/CD Pipeline for Docker Based Appliaction</h1>
 <h1 align="center">Hello All</h1>
 <hr>
