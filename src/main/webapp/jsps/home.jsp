@@ -16,8 +16,8 @@
 <div style="text-align: center;">
 	
 	<span style="font-weight: bold;">
-		Praveen Kumar Krishnamoorthy /n
-		        ERS CoE
+		Praveen Kumar Krishnamoorthy
+		<p> ERS CoE </p>
 		
 	</span>
 </div>
