@@ -8,7 +8,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to DevOps Docker world World</h1>
+<h1 align="center">I/CD Pipeline for DOcker Based Appliaction</h1>
 <h1 align="center">Hello All</h1>
 <hr>
 </h1>
@@ -17,6 +17,7 @@
 	
 	<span style="font-weight: bold;">
 		Praveen Kumar Krishnamoorthy
+		        ERS CoE
 		
 	</span>
 </div>
