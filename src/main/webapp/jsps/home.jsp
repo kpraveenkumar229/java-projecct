@@ -8,7 +8,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">I/CD Pipeline for DOcker Based Appliaction</h1>
+<h1 align="center">CI/CD Pipeline for Docker Based Appliaction</h1>
 <h1 align="center">Hello All</h1>
 <hr>
 </h1>
@@ -16,7 +16,7 @@
 <div style="text-align: center;">
 	
 	<span style="font-weight: bold;">
-		Praveen Kumar Krishnamoorthy
+		Praveen Kumar Krishnamoorthy /n
 		        ERS CoE
 		
 	</span>
