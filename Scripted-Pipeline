@@ -1,0 +1,26 @@
+node{
+    def buildNumber = BUILD_NUMBER
+    stage("Git Clone stage"){
+        git url: 'https://github.com/kpraveenkumar229/java-projecct.git', branch: 'master'
+    }
+    stage("Maven Clean Package"){
+        def mvnHome = tool name: 'maven-3', type: 'maven'
+        def mvnCMD = "${mvnHome}/bin/mvn"
+        sh "${mvnCMD} clean package"
+    }
+    stage("Build Doicker Image"){
+        sh "docker build -t kpraveenkumar23232/java-web-app-docker:${buildNumber} ."
+    }
+    stage("Push image into DockerHub"){
+        withCredentials([string(credentialsId: 'docker', variable: 'DockerHub')]) {
+        sh "docker login -u kpraveenkumar23232 -p ${DockerHub} "
+    }
+    sh "docker push kpraveenkumar23232/java-web-app-docker:${buildNumber}"
+    }
+    stage("Deploy Application as Docker Container on Deployment Server"){
+    sshagent(['ssh-agen']) {
+    sh "ssh -o StrictHostKeyChecking=no ubuntu@15.207.84.43 docker rm -f javaapp || true"
+    sh "ssh -o StrictHostKeyChecking=no ubuntu@15.207.84.43 docker run -d -p 8080:8080 --name javaapp kpraveenkumar23232/java-web-app-docker:${buildNumber}" 
+}
+    }
+}
