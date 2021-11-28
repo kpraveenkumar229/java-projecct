@@ -9,7 +9,7 @@
 </head>
 <body style="background-color:powderblue;">
 <h1 align="center">CI/CD Pipeline for Docker Based Appliaction Demo</h1>
-<h1 align="center">HelloO All</h1>
+<h1 align="center">HellO All</h1>
 <hr>
 </h1>
 <hr>
