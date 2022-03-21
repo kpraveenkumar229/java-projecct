@@ -94,6 +94,16 @@
 	</dependencies>
 	
 	<distributionManagement>
+		<repository>
+  <id>Praveen</id>
+  <url>https://pkgs.dev.azure.com/Android229/AndroidApp/_packaging/Praveen/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 	
 	    <repository>
 	      <id>nexus</id>
