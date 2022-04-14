@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool: 'windows'
-- task: Maven@3
+pool:'windows'
+- taskaven@3
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'clean'
