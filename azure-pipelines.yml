@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool:'windows'
+pool: 'ubuntu-latest'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
